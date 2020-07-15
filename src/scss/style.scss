@@ -1,0 +1,36 @@
+@import "colors";
+@import "fonts";
+@import "cards";
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans"
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: $bg-color;
+	color: $font-color;
+}
+
+
+section {
+	width: 100%;
+	height: 100%;
+	display: block;
+
+	background: #f0f0f0;
+}
+
+#who {
+	padding-top: 20%;
+	text-align: center;
+
+	h1{
+		font-size: 36pt;
+	}
+}

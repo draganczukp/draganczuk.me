@@ -1,0 +1,27 @@
+.card-container {
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	grid-auto-rows: 200px;
+	grid-gap: 5px;
+}
+
+a {
+	display: block;
+	color: $font-color;
+	background: $card-bg;
+	text-decoration: none;;
+
+	width: 100%;
+	height: 100%;
+
+	box-shadow: #00000080 10px 10px 15px 2px;
+
+}
+
+.icon {
+	width: 75%;
+	height: 75%;
+	font-size: 50pt;
+}
